@@ -59,7 +59,7 @@ public class Main {
             }
 
             //if needed to print new json
-            objectMapper.writeValue(new File("C:/ACE/userNotCompleted.json"), usersCompletedTrue);
+            objectMapper.writeValue(new File("C:/ACE/userNotCompleted.json"), usersCompletedFalse);
             System.out.println("Data has been written to userNotCompleted.json");
 
         } catch (IOException e) {
